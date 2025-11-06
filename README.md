@@ -132,15 +132,6 @@ cd server
 npm install
 ```
 
-Create `.env` file in `server/` directory:
-```env
-MONGO_URI=mongodb+srv://username:password@cluster.mongodb.net/restaurant_db
-JWT_SECRET=your_super_secret_jwt_key_change_in_production
-CLIENT_URL=http://localhost:5173
-PORT=5000
-NODE_ENV=development
-```
-
 Start the backend:
 ```bash
 npm run dev
